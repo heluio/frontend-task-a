@@ -86,16 +86,16 @@ def get_company_dashboard(company_id):
     }
 
 
-@app.route("/{}/marketplace/project".format(API_VERSION))
+@app.route(f"/{API_VERSION}/marketplace/project")
 def marketplace():
     return jsonify(get_all_marketplace())
 
 
-@app.route("/{}/marketplace/project/<project_id>".format(API_VERSION))
+@app.route(f"/{API_VERSION}/marketplace/project/<project_id>")
 def marketplace_detail(project_id):
     return jsonify(get_marketplace(project_id))
 
 
-@app.route("/{}/company/<company_id>/dashboard".format(API_VERSION))
+@app.route(f"/{API_VERSION}/company/<company_id>/dashboard")
 def company_dashboard(company_id):
     return jsonify(get_company_dashboard(company_id))
