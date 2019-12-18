@@ -1,0 +1,174 @@
+openapi: 3.0.0
+# Added by API Auto Mocking Plugin
+servers:
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/filipjakubowski/OazeTest/1.0.0
+info:
+  description: Oaze Test Dashboard API
+  version: "1.0.0"
+  title: Dashboard API
+  contact:
+    email: filip@oaze.io
+paths:
+  /marketplace/project:
+    get:
+      tags:
+        - marketplace
+      summary: list of all offseting projects 
+      operationId: listProjects
+      description: |
+        List all the projects in offseting marketplace
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Project'
+  /marketplace/project/{id}:
+    get:
+      tags:
+        - marketplace
+      summary: detailed information about project
+      operationId: projectDetails
+      description: |
+        You can details of the sustainability project
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: numeric ID of the project to get
+      responses:
+        '200':
+          description: return details of the offseting project
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/Project'
+        '400':
+          description: bad input parameter
+  /company/{id}/dashboard:
+    get:
+      tags:
+        - corporate
+      summary: returns performance indicators for company
+      operationId: getPerformance
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: numeric ID of the company to get
+      description: | 
+        Returns set of performance indicators for the company that refers to carbon emission, energy consumption and offsets.  
+      responses:
+        '200':
+          description: list of emission indicators
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Performance'
+        '400':
+          description: bad input parameter
+components:
+  schemas:
+    Project:
+      type: object
+      required:
+        - id
+        - name
+        - projectType
+      properties:
+        id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        name:
+          type: string
+          example: Green Planet
+        projectType:
+          type: string
+          example: Forest
+          enum: [Forest, CarbonCapture, CleanEnergy]
+        offsetGoalCO2: 
+          type: integer
+          description: number of tonnes of CO2 offseted
+          example: 100532
+        imageUrl:
+          type: string
+          format: url
+        geoLocation:
+          type: object
+          properties: 
+            lattitude: 
+              type: number
+              example: 6.633826 
+            longitude: 
+              type: number
+              example: -1.739672
+        country:
+          type: string
+          example: Congo
+        ce2PPT:
+          type: number
+          format: double
+          example: 12.80
+        currency: 
+          type: string
+          example: EUR
+        description: 
+          type: string
+          example: |
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        offsetingPartner:
+          $ref: '#/components/schemas/OffsetingPartner'
+    OffsetingPartner:
+      required:
+        - name
+      properties:
+        name:
+          type: string
+          example: Southpole (c) 
+        homePage:
+          type: string
+          format: url
+          example: 'https://www.southpole.com'
+      type: object
+    Performance:
+      description: |
+        Provides summary for current calculation period. 
+      properties: 
+        totalEmissions: 
+          type: number
+          format: double
+          example: 48.0
+          description: tonnes of CO2 emmited in current calculation perios
+        totalChange:
+          type: number 
+          format: double
+          example: -7.6
+          description: comparison to emission in previous calculation period
+        elements:
+          type: array
+          items:
+            type: object
+            properties: 
+              label:
+                type: string
+                example: Transportation
+              emmisions: 
+                type: number
+                format: double
+                example: 29.0
+                description: tonnes of CO2 emmited in current calculation perios
+              change:
+                type: number 
+                format: double
+                example: -7.6
+                description: comparison to emission in previous calculation period
+                
