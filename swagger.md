@@ -1,27 +1,27 @@
 #Oaze.io - Frontend Dev Task
 
-We would like to learn about how you approach a development and learn more about your skills. In order to do that we have prepared a small task based on our initial MVP mocks. The task doeas not have be fully complete to be submitted.  
+We want to learn about how you approach development and learn more about your skills. To do that we have prepared a small task based on our initial MVP mocks. The task does not have to be fully complete to be submitted. 
  
 
 ### Guides: 
 
-- Please feel free to add some creativity where you want to make task more fun and approchable or entertaining. 
+- Please feel free to add some creativity where you want to make a task more fun and approachable or entertaining. 
 
 - You are free to approach any part of the task and put as much effort into it as you please.
 
-- All assumptions you will take along the task should be communicated along the result. 
+- All the assumptions you will take along the task should be communicated along with the result.  
 
 - You are free to pick web frontend technology of your choice. 
 
-- Provide instructions how to run a project
+- Provide instructions on how to run a project
 
-- Please deliver solution as a git repository but not PR to our repository hosted on github. 
+- PPlease deliver the solution as a git repository but not PR to our repository hosted on GitHub. 
 
 ### What to do
 
 a) Implement dashboard widget / element
 
-In the left column of attached screenshot we have Widget labelled "total emissions" - please implement it based on [dashboard endpoint](https://app.swaggerhub.com/apis-docs/filipjakubowski/OazeTest/1.0.0#/corporate/getPerformance)
+In the left column of the attached screenshot, we have Widget labelled "total emissions" - please implement it based on [dashboard endpoint](https://app.swaggerhub.com/apis-docs/filipjakubowski/OazeTest/1.0.0#/corporate/getPerformance)
 
 
 b) Implement List / Map View
@@ -30,7 +30,7 @@ Please implement List / Map view of the projects based on attached screenshot an
 
 ### Resources
 
-Icons are not provided with this task. Please feel free to use freely aviable icon sets. 
+Icons are not provided with this task. Please feel free to use freely available icon sets. 
 
 Here are [REST API docs](https://app.swaggerhub.com/apis-docs/filipjakubowski/OazeTest/1.0.0#/Performance). 
 
