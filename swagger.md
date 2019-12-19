@@ -15,7 +15,7 @@ We want to learn about how you approach development and learn more about your sk
 
 - Provide instructions on how to run a project
 
-- PPlease deliver the solution as a git repository but not PR to our repository hosted on GitHub. 
+- Please deliver the solution as a git repository but not PR to our repository hosted on GitHub. 
 
 ### What to do
 
