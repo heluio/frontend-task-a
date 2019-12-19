@@ -1,6 +1,6 @@
 #Oaze.io - Frontend Dev Task
 
-We would like to learn about how you approach a developement and learn more about your skills. In order to do that we have prepares a small task based on our initial MVP mocks. The task doeas not have be fully complete to be submitted.  
+We would like to learn about how you approach a development and learn more about your skills. In order to do that we have prepared a small task based on our initial MVP mocks. The task doeas not have be fully complete to be submitted.  
  
 
 ### Guides: 
