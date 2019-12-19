@@ -7,6 +7,10 @@ We want to learn about how you approach development and learn more about your sk
 
 - Please feel free to add some creativity where you want to make a task more fun and approachable or entertaining. 
 
+- We expect by delivering a task you will demonstrate good polished UI. 
+
+- Animations would be a plus.
+
 - You are free to approach any part of the task and put as much effort into it as you please.
 
 - All the assumptions you will take along the task should be communicated along with the result.  
