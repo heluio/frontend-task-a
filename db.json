@@ -1,0 +1,119 @@
+{
+  "marketplace": {
+    "projects":[
+    {
+      "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+      "name": "Green Planet",
+      "projectType": "Forest",
+      "offsetGoalCO2": 100532,
+      "imageUrl": "https://github.com/oazeio/frontend-task-a/blob/master/images/project-2.jpg?raw=true",
+      "geoLocation":{
+        "latitude": 6.633826,
+        "longitude":-1.739672
+      },
+      "country": "Ghana",
+      "co2PPT": 12.8,
+      "currency": "EUR",
+      "descripyion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "offsetingPartner":{
+        "name": "NorthPole",
+        "homePage": "https://www.npole.com"
+      }
+    },
+    {
+      "id": "d290f1ee-6c54-4b01-90e6-d701748f0852",
+      "name": "Old Growth",
+      "projectType": "Forest Protection",
+      "offsetGoalCO2": 532,
+      "imageUrl": "https://github.com/oazeio/frontend-task-a/blob/master/images/project-1.jpg?raw=true",
+      "geoLocation":{
+        "latitude": -4.0909,
+        "longitude":19.5827
+      },
+      "country": "Congo",
+      "co2PPT": 15.1,
+      "currency": "EUR",
+      "descripyion": "Pharetra magna ac placerat vestibulum lectus mauris. Semper auctor neque vitae tempus quam. Cursus sit amet dictum sit amet justo donec enim diam. Placerat duis ultricies lacus sed. Morbi quis commodo odio aenean sed adipiscing. Tempor commodo ullamcorper a lacus.",
+      "offsetingPartner":{
+        "name": "NorthPole",
+        "homePage": "https://www.npole.com"
+      }
+    },
+    {
+      "id": "d290f1ee-6c54-4b01-90e6-d701748f0853",
+      "name": "Onyx",
+      "projectType": "Reforestation",
+      "offsetGoalCO2": 200000,
+      "imageUrl": "https://github.com/oazeio/frontend-task-a/blob/master/images/project-3.jpg?raw=true",
+      "geoLocation":{
+        "latitude": 0.2830,
+        "longitude":-71.8065
+      },
+      "country": "Columbia",
+      "co2PPT": 7.8,
+      "currency": "EUR",
+      "descripyion": "Etiam sit amet nisl purus. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Cras adipiscing enim eu turpis egestas pretium. Faucibus purus in massa tempor nec. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Odio aenean sed adipiscing diam. Ut lectus arcu bibendum at varius vel pharetra vel turpis. Fringilla est ullamcorper eget nulla facilisi etiam. Egestas maecenas pharetra convallis posuere morbi leo urna. ",
+      "offsetingPartner":{
+        "name": "NorthPole",
+        "homePage": "https://www.npole.com"
+      }
+    },
+    {
+      "id": "d290f1ee-6c54-4b01-90e6-d701748f0854",
+      "name": "Isla Verde",
+      "projectType": "Forest",
+      "offsetGoalCO2": 5000,
+      "imageUrl": "https://github.com/oazeio/frontend-task-a/blob/master/images/project-4.jpg?raw=true",
+      "geoLocation":{
+        "latitude": -4.8965,
+        "longitude":-55.1073
+      },
+      "country": "Brasil",
+      "co2PPT": 12.8,
+      "currency": "EUR",
+      "descripyion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "offsetingPartner":{
+        "name": "NorthPole",
+        "homePage": "https://www.npole.com"
+      }
+    },
+    {
+      "id": "d290f1ee-6c54-4b01-90e6-d701748f0855",
+      "name": "Matmata",
+      "projectType": "Forest",
+      "offsetGoalCO2": 20124,
+      "imageUrl": "https://github.com/oazeio/frontend-task-a/blob/master/images/project-5.jpg?raw=true",
+      "geoLocation":{
+        "latitude": -18.4612,
+        "longitude":-66.0936
+      },
+      "country": "Congo",
+      "co2PPT": 12.8,
+      "currency": "EUR",
+      "descripyion": "Quis auctor elit sed vulputate mi sit amet mauris. Rutrum quisque non tellus orci. Adipiscing vitae proin sagittis nisl rhoncus mattis.",
+      "offsetingPartner":{
+        "name": "NorthPole",
+        "homePage": "https://www.npole.com"
+      }
+    }
+  ]
+  },
+  "company": {
+    "dashboard":{
+      "totalEmissions": 48.0,
+      "totalChange": -7.6,
+      "elements": [
+        {
+          "label": "Transportation",
+          "emissions": 29.0,
+          "change": -7.6
+        },
+        {
+          "label": "Office",
+          "emissions": 19.0,
+          "change": 10.1
+        }
+      ]
+    }
+  }
+}
