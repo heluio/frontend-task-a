@@ -38,7 +38,7 @@ Icons are not provided with this task. Please feel free to use freely available 
 
 Here are [REST API docs](https://app.swaggerhub.com/apis-docs/filipjakubowski/OazeTest/1.0.0#/Performance). 
 
-Here is [API]( https://my-json-server.typicode.com/oazeio/frontend-task-a/db.json) to play around with. 
+Here is [API]( https://my-json-server.typicode.com/oazeio/frontend-task-a ) to play around with. 
 
 Font: [Lato](https://fonts.google.com/specimen/Lato)
 
